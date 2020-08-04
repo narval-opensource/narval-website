@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Gill Sans Nova Cn Book';
+    src: url('fonts/GillSansNova-CnBold.woff2') format('woff2'),
+        url('fonts/GillSansNova-CnBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans Nova';
+    src: url('fonts/GillSansNova-Heavy.woff2') format('woff2'),
+        url('fonts/GillSansNova-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans Nova Book';
+    src: url('fonts/GillSansNova-Book.woff2') format('woff2'),
+        url('fonts/GillSansNova-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans Nova Cn';
+    src: url('fonts/GillSansNova-CnHeavy.woff2') format('woff2'),
+        url('fonts/GillSansNova-CnHeavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans Nova Book';
+    src: url('fonts/GillSansNova-Bold.woff2') format('woff2'),
+        url('fonts/GillSansNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans Nova Book';
+    src: url('fonts/GillSansNova-BoldItalic.woff2') format('woff2'),
+        url('fonts/GillSansNova-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+	padding-top: 10%;
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-position: center top;
+	background-blend-mode: difference;
+}
+
+.emoji {
+	font-size: 55px;
+	text-align: center;
+	color: whitesmoke;
+}
+
+.title {
+	margin-top: 120px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 40px;
+	color: whitesmoke;
+	font-weight: 400;
+	letter-spacing: 10px;
+	text-align: center;
+}
+
+.email {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-top: 20px;
+	color: whitesmoke;
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: 4px;
+
+}
