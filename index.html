@@ -1,21 +1,49 @@
 <html>
-	<head>
-		<title>Narval Software Engineering Consultancy LTD</title>
-		<link href="style.css" rel="stylesheet">
-	</head>
-	<body>
-		<div>
-			<div class="emoji">
-				👨‍💻 + 🚧 + ⏳ = 🦄 + 🌈
-			</div>
-			<div class="title">
-				NARVAL IS GETTING READY
-			</div>
-			<div class="email">
-				<a href="mailto:onur@narval.co.uk" class="email">
-					onur[at]narval.co.uk
-				</a>
-			</div>
-		</div>
-	</body>
+    <head>
+        <title>Narval Software</title>
+        <link href="style.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div>
+            <div class="logo">
+                <img src="wide_logo.png" width="400px" />
+            </div>
+            <div class="title">narval is getting ready</div>
+            <div class="email">
+                <a href="mailto:onur@narval.co.uk" class="email" target="_blank">
+                    <i class="fa fa-envelope fa-lg"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/narval-software" class="email" target="_blank">
+                    <i class="fa fa-linkedin fa-lg" ></i>
+                </a>
+                <a href="https://github.com/narval-opensource" class="email" target="_blank">
+                    <i class="fa fa-github fa-lg"></i>
+                </a>
+            </div>
+            <div class="bottom">
+                Onur Temizkan - 2020
+            </div>
+        </div>
+        <canvas class="background"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+        <script>
+            window.onload = function () {
+                Particles.init({
+                    selector: ".background",
+                    color: ["#E06379", "#9C3979"],
+                    connectParticles: true,
+                    sizeVariations: 5,
+                    speed: 0.3,
+                    maxParticles: 120,
+                    minDistance: 110,
+                });
+            };
+        </script>
+    </body>
 </html>

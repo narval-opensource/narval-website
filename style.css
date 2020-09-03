@@ -1,81 +1,116 @@
 @font-face {
-    font-family: 'Gill Sans Nova Cn Book';
-    src: url('fonts/GillSansNova-CnBold.woff2') format('woff2'),
-        url('fonts/GillSansNova-CnBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Gill Sans Nova Cn Book';
+	src: url('fonts/GillSansNova-CnBold.woff2') format('woff2'),
+		url('fonts/GillSansNova-CnBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Gill Sans Nova';
-    src: url('fonts/GillSansNova-Heavy.woff2') format('woff2'),
-        url('fonts/GillSansNova-Heavy.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
+	font-family: 'Gill Sans Nova';
+	src: url('fonts/GillSansNova-Heavy.woff2') format('woff2'),
+		url('fonts/GillSansNova-Heavy.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Gill Sans Nova Book';
-    src: url('fonts/GillSansNova-Book.woff2') format('woff2'),
-        url('fonts/GillSansNova-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Gill Sans Nova Book';
+	src: url('fonts/GillSansNova-Book.woff2') format('woff2'),
+		url('fonts/GillSansNova-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Gill Sans Nova Cn';
-    src: url('fonts/GillSansNova-CnHeavy.woff2') format('woff2'),
-        url('fonts/GillSansNova-CnHeavy.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
+	font-family: 'Gill Sans Nova Cn';
+	src: url('fonts/GillSansNova-CnHeavy.woff2') format('woff2'),
+		url('fonts/GillSansNova-CnHeavy.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Gill Sans Nova Book';
-    src: url('fonts/GillSansNova-Bold.woff2') format('woff2'),
-        url('fonts/GillSansNova-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Gill Sans Nova Book';
+	src: url('fonts/GillSansNova-Bold.woff2') format('woff2'),
+		url('fonts/GillSansNova-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Gill Sans Nova Book';
-    src: url('fonts/GillSansNova-BoldItalic.woff2') format('woff2'),
-        url('fonts/GillSansNova-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
+	font-family: 'Gill Sans Nova Book';
+	src: url('fonts/GillSansNova-BoldItalic.woff2') format('woff2'),
+		url('fonts/GillSansNova-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
 }
 
 body {
 	padding-top: 10%;
-	background-image: url('bg.jpg');
-	background-size: cover;
-	background-position: center top;
-	background-blend-mode: difference;
 }
 
 .emoji {
-	font-size: 55px;
+	font-size: 30px;
 	text-align: center;
-	color: whitesmoke;
+	color: 233772;
+	margin-top: 120px;
+
+}
+
+.logo {
+	text-align: center;
 }
 
 .title {
 	margin-top: 120px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 40px;
-	color: whitesmoke;
-	font-weight: 400;
-	letter-spacing: 10px;
+	color: #233772;
+	font-weight: 600;
+	letter-spacing: 0.16em;
 	text-align: center;
 }
 
 .email {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	margin-top: 20px;
-	color: whitesmoke;
+	margin-top: 2em;
+	margin-right: 4px;
+	margin-left: 4px;
+	color:  #233772;
 	text-align: center;
-	font-weight: 100;
-	letter-spacing: 4px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
 
+.bottom {
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 0.9em;
+	margin-top: 2em;
+	margin-right: 4px;
+	margin-left: 4px;
+	color:  #233772;
+	text-align: center;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	position: fixed;
+	bottom: 30px;
+	width: 100%;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.background {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0.5;
 }
